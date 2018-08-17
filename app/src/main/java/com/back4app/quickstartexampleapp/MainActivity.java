@@ -23,7 +23,5 @@ public class MainActivity extends AppCompatActivity {
 
         //Connecting tvTest with view tvTest in layout
         tvTest = (TextView)findViewById(R.id.tvTest);
-
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("List");
     }
 }
