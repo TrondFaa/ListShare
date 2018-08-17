@@ -4,7 +4,7 @@ package ParseExtensions;
 import com.parse.ParseClassName;
 import com.parse.ParseObject;
 
-@ParseClassName("ParseDetailsItem")
+@ParseClassName("List")
 public class ItemList extends ParseObject {
 
     public ItemList(String description){
